@@ -1,0 +1,16 @@
+HOUSE PRICE PREDICTION — QUICK START
+
+1. Open a terminal in this folder.
+2. Create a virtual environment:
+   python -m venv venv
+3. Activate it:
+   Windows: venv\Scripts\activate
+4. Install:
+   pip install -r requirements.txt
+5. (Optional) Train:
+   python train_model.py
+6. Run Web App:
+   python app.py
+   (Open http://127.0.0.1:5000 in your browser)
+7. Test:
+   pytest -q
